@@ -8,10 +8,10 @@ def test(a, *b, c='Текст', **d):
 
 
 def factorial(n):
-    if n == 0:
-        return 0
+    if n == 2:
+        return 2
     else:
-        return n + factorial(n - 1)
+        return n * factorial(n - 1)
 
 
 list1 = ['Один', 'Два', 'Три']
